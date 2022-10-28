@@ -130,7 +130,7 @@ try {
                     <!-- To make this form functional, sign up at-->
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <!--<form id="contactForm" data-sb-form-api-token="API_TOKEN">-->
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
                             <form action="" method="POST">
@@ -143,8 +143,10 @@ try {
                             </form>
                                                       
                         </div>
+                    <!--
                         <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
+                     -->
                         <!-- Submit success message-->
                         <!---->
                         <!-- This is what your users will see when the form-->
@@ -161,9 +163,9 @@ try {
                         <!-- Submit error message-->
                         <!---->
                         <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                    </form>
+                        <!-- an error submitting the form
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>-->
+                   <!-- </form>-->
                 </div>
             </div>
         </div>
