@@ -139,7 +139,7 @@ try {
                                 <p><input class="form-control" placeholder="Subject" type="subject" name="subject" /> </p>
                                 <p><textarea class="form-control" placeholder="Message" name="message"></textarea></p>
                                             
-                                <p><button name="submit" class="btn btn-primary disabled" id="submitButton" type="submit">Submit!</button></p>
+                                <p><button name="submit" class="btn btn-primary" id="submitButton" type="submit">Submit!</button></p>
                             </form>
                                                       
                         </div>
