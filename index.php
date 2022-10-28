@@ -146,14 +146,7 @@ try {
                         <!-- has successfully submitted-->
                         <?php 
 
-                        echo '<div class="d-nones" id="submitSuccessMessage">
-                        <div class="text-center mb-3 mt-2">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            Please visit
-                            <br />
-                            <a href="https://mdjmobilemix.blogpsot.com/">https://mdjmobilemix.blogpsot.com/</a>
-                        </div>
-                    </div>' , PHP_EOL;
+                        echo "Form submission successful!", PHP_EOL;
                         } catch (phpmailerException $e) {
                             echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
                         } catch (Exception $e) {
