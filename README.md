@@ -15,3 +15,7 @@ index.php =  working
 - no validation
 
 current task. ( put validation )
+
+
+issue:
+When using form mail ( contact us ) in your website. where will be no auto reply, or email confirmation that will send an email to user. bec users are not validated in AWS SMTP. 
