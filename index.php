@@ -84,16 +84,7 @@ try {
     
     $mail->Send();
     
-    echo "Form submission successful!", PHP_EOL;
-               } catch (phpmailerException $e) {
-                            echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
-                        } catch (Exception $e) {
-                            echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
-                        }
-     
     
-
- }
 ?><!DOCTYPE html>
 <html lang="en">
     <head>
@@ -151,7 +142,20 @@ try {
                         <!---->
                         <!-- This is what your users will see when the form-->
                         <!-- has successfully submitted-->
-                      
+<?php
+  
+    echo '<b>Form submission successful!</b>', PHP_EOL;
+    
+               } catch (phpmailerException $e) {
+                            echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+                        } catch (Exception $e) {
+                            echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+                        }
+     
+    
+
+ }  
+?>
                         <!--<div class="d-nones" id="submitSuccessMessage">
                             <div class="text-center mb-3 mt-2">
                                 <div class="fw-bolder">Form submission successful!</div>
