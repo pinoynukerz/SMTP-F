@@ -47,11 +47,11 @@
     <div class=\"yj6qo\"></div></div><div class=\"adL\"></div></div>"; 
      
 
-    $sender       = 'jmattz23@hotmail.com';
+    $sender       = 'XXXXXXXXX.com';
     $senderName   = $name;
-    $recipient    = 'alfred.mattz@gmail.com';
-    $usernameSmtp = 'AKIAVFEKWWJKDDLUBNRU'; 
-    $passwordSmtp = 'BEWEfDgnPyD6GB9nh85C0QMPsxIg1ykA8uMpGgtUdGsz';
+    $recipient    = 'XXXXXX@XXX.com';
+    $usernameSmtp = 'XXXXXXXXXX'; 
+    $passwordSmtp = 'XXXXXXXXXXX';
     $host         = 'email-smtp.us-east-1.amazonaws.com';
     $port         = 465;
      
